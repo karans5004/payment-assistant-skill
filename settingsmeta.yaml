@@ -1,13 +1,45 @@
 
 skillMetadata:
   sections:
-    - name: Options << Name of section
+    - name: payment_details
       fields:
-        - name: internal_python_variable_name
+        - name: ccnum
           type: text
-          label: Setting Friendly Display Name
-          value: ""
-          placeholder: demo prompt in the input box
+          label: credit card number
+          value: "5123456789012346"
+
+        - name: ccname
+          type: text
+          label: credit card name
+          value: "karan"
+
+        - name: ccvv
+          type: text
+          label: credit card CVV
+          value: "123"
+
+        - name: ccexpmon
+          type: text
+          label: credit card exp month
+          value: "05"
+
+        - name: ccexpyr
+          type: text
+          label: credit card number
+          value: "2020"
+
+
+        - name: pg
+          type: text
+          label: credit card number
+          value: "CC"
+
+        - name: bankcode
+          type: text
+          label: credit card number
+          value: "CC"
+
+        
     - name: Login << Name of another section
       fields:
         - type: label
